@@ -30,6 +30,7 @@ export default function Page() {
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
+          {/* hidden md:block - hidden until medium screen size*/}
           <Image
             src="/hero-desktop.png"
             width={1000}
